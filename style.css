@@ -1,0 +1,212 @@
+/*Header*/
+body{
+    background-color: rgb(41, 37, 58);
+}
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    background:url("image/photo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+    backdrop-filter: blur(4px);
+    font-family: cursive;
+    color: black;
+    text-shadow: 2px 3px white;
+    font-weight: bold;
+}
+.icon{
+    padding: 10px;
+    display: flex;
+    justify-content: end;   
+
+}
+.icon a{
+    padding: 5px;
+}
+.icon img{
+    height: 30px;
+    padding: 10px;
+    background: white;
+    border-radius: 20px;
+}
+.menubar ul{
+    display: flex;
+    backdrop-filter: blur(2px);
+}
+.menubar ul li{
+    list-style-type: none;
+    padding: 20px 10px;
+    font-size: 20px;
+    text-shadow: 2px 3px black;
+    float: relative;
+}
+.menubar ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-size: 25px;
+    cursor:alias;
+    font-weight:600;
+    border: 5px;
+    border-radius: 5px;
+    position:static;
+
+}
+.menubar ul li a:hover{
+    color:white;
+    font-size: 30px;
+    backdrop-filter: blur(4px);
+    transition: 2s;
+    text-shadow: 2px 2px rgba(44, 38, 38, 0.641);
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;   
+}
+/* Header */
+section{
+    background: url(image/image-7.webp);
+}
+.content{
+    display: grid;
+    grid-template-columns:50% 50%;
+    width: 100%;
+    height: 480px;
+    padding-top: 10px;
+
+}
+.image{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
+.image img{
+    height: 480px;
+
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-image: url("image/image-6.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.btn{
+    padding:40px;
+    backdrop-filter: blur(4px);
+    border: 5px solid darkorchid;
+    border-radius:50px;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color:aliceblue;
+}
+.btn:hover{
+    font-weight: bold;
+    padding: 50px;
+    transition: 1s;
+    font-size: 50px;
+}
+/* Header */
+
+/* Content */
+section{
+    display: grid;
+    justify-content:
+}
+.info{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    color: white;
+    backdrop-filter: blur(3px);
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 20px;
+    border: 5px;
+    margin-top: 200px;
+    text-align: justify;
+    
+}
+.info:hover{
+    text-shadow: 2px 1px rgba(197, 197, 198, 0.686);
+}
+.form_c{
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 700px;
+    backdrop-filter: blur(4px);
+}
+.form_c h3{
+    color: rgb(150, 82, 252);
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    cursor:cell;
+    width: 500px;
+    border-radius: 4px;
+    border: 3px dotted white;
+    padding: 40px 10px 10px 10px;
+}
+.form_c h3:hover{
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+form{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 110px 260px;
+    grid-auto-rows: 35px;
+    grid-gap: 20px;
+    color: white;
+    font-family: fantasy;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+form label{
+    display: grid;
+    padding: 5px;
+}
+form input{
+    padding: 20p;
+    border-radius: 5px;
+}
+form #lcn{
+    height: 50px;
+    width: 200px;
+}
+
+#option{
+    background: rgb(41, 37, 58);
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+#submit{
+    padding: 10px;
+    backdrop-filter: blur(4px);
+    border: 5px solid red;
+    border-radius:50px;
+    background: black;
+    color: white;
+    font-family: fantasy;
+    font-size: 15px;
+    width: 200px;
+}
+#submit:hover{
+    font-size: 30px;
+    transition: 1s;
+}
